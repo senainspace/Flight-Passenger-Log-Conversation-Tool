@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <!-- ═══════════════════════════════════════════════════════════════
-       Simple type definitions
-       ═══════════════════════════════════════════════════════════════ -->
-
-  <!-- ticket_id: exactly 3 uppercase letters followed by 4 digits -->
+  <!-- ticket_id: 3 uppercase letters + 4 digits (e.g. THY1234) -->
   <xs:simpleType name="TicketIDType">
     <xs:restriction base="xs:string">
       <xs:pattern value="[A-Z]{3}[0-9]{4}"/>
     </xs:restriction>
   </xs:simpleType>
 
-  <!-- app_ver: vX.Y.Z  (e.g. v1.0.2) -->
+  <!-- app_ver: vX.Y.Z (e.g. v1.0.2) -->
   <xs:simpleType name="AppVerType">
     <xs:restriction base="xs:string">
       <xs:pattern value="v[0-9]+\.[0-9]+\.[0-9]+"/>
@@ -28,7 +24,7 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <!-- baggage_weight: 0.0 – 50.0 kg -->
+  <!-- baggage_weight: 0.0 - 50.0 kg -->
   <xs:simpleType name="BaggageWeightType">
     <xs:restriction base="xs:float">
       <xs:minInclusive value="0.0"/>
@@ -36,7 +32,7 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <!-- loyalty_points: 0 – 10000 -->
+  <!-- loyalty_points: 0 - 10000 -->
   <xs:simpleType name="LoyaltyPointsType">
     <xs:restriction base="xs:integer">
       <xs:minInclusive value="0"/>
@@ -44,7 +40,7 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <!-- seat_num: 1 – 300 -->
+  <!-- seat_num: 1 - 300 -->
   <xs:simpleType name="SeatNumType">
     <xs:restriction base="xs:integer">
       <xs:minInclusive value="1"/>
@@ -52,11 +48,29 @@
     </xs:restriction>
   </xs:simpleType>
 
-  <!-- ═══════════════════════════════════════════════════════════════
-       Complex type definitions
-       ═══════════════════════════════════════════════════════════════ -->
+  <!-- <ticket> element -->
+  <xs:complexType name="TicketType">
+    <xs:sequence>
+      <xs:element name="ticket_id"   type="TicketIDType"/>
+      <xs:element name="destination" type="xs:string"/>
+      <!-- app_ver uses xs:string to allow records where CSV had no value -->
+      <xs:element name="app_ver"     type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
 
-  <!-- <passenger_name current_encoding="UTF-8" first_char_hex="..."> -->
+  <!-- <metrics> element -->
+  <xs:complexType name="MetricsType">
+    <xs:sequence>
+      <xs:element name="baggage_weight" type="BaggageWeightType"/>
+      <xs:element name="loyalty_points" type="LoyaltyPointsType"/>
+      <xs:element name="seat_num"       type="SeatNumType"/>
+    </xs:sequence>
+    <!-- status holds an emoji (🟢 / 🔴 / ⚠️) as a UTF-8 string -->
+    <xs:attribute name="status"      type="xs:string"      use="required"/>
+    <xs:attribute name="cabin_class" type="CabinClassType" use="required"/>
+  </xs:complexType>
+
+  <!-- <passenger_name> element with encoding metadata attributes -->
   <xs:complexType name="PassengerNameType">
     <xs:simpleContent>
       <xs:extension base="xs:string">
@@ -66,28 +80,7 @@
     </xs:simpleContent>
   </xs:complexType>
 
-  <!-- <ticket> -->
-  <xs:complexType name="TicketType">
-    <xs:sequence>
-      <xs:element name="ticket_id"   type="TicketIDType"/>
-      <xs:element name="destination" type="xs:string"/>
-      <xs:element name="app_ver"     type="AppVerType"/>
-    </xs:sequence>
-  </xs:complexType>
-
-  <!-- <metrics status="🟢" cabin_class="ECONOMY"> -->
-  <xs:complexType name="MetricsType">
-    <xs:sequence>
-      <xs:element name="baggage_weight" type="BaggageWeightType"/>
-      <xs:element name="loyalty_points" type="LoyaltyPointsType"/>
-      <xs:element name="seat_num"       type="SeatNumType"/>
-    </xs:sequence>
-    <!-- status holds the raw emoji string -->
-    <xs:attribute name="status"      type="xs:string"      use="required"/>
-    <xs:attribute name="cabin_class" type="CabinClassType" use="required"/>
-  </xs:complexType>
-
-  <!-- <entry id="N"> -->
+  <!-- <entry id="N"> element -->
   <xs:complexType name="EntryType">
     <xs:sequence>
       <xs:element name="ticket"         type="TicketType"/>
@@ -98,25 +91,15 @@
     <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
   </xs:complexType>
 
-  <!-- Root container type (used for any root element name) -->
-  <xs:complexType name="FlightLogsType">
-    <xs:sequence>
-      <xs:element name="entry" type="EntryType"
-                  minOccurs="1" maxOccurs="unbounded"/>
-    </xs:sequence>
-  </xs:complexType>
-
-  <!-- ═══════════════════════════════════════════════════════════════
-       Global element declarations
-       The root element name matches the output filename without
-       extension (e.g. flightlogs_utf8). The most common name used
-       during testing is declared here; validate.c handles dynamic
-       root element matching at runtime.
-       ═══════════════════════════════════════════════════════════════ -->
-
-  <xs:element name="flightlogs_utf8"   type="FlightLogsType"/>
-  <xs:element name="flightlogs_utf16le" type="FlightLogsType"/>
-  <xs:element name="flightlogs_utf16be" type="FlightLogsType"/>
-  <xs:element name="flightlogs"        type="FlightLogsType"/>
+  <!-- Root element name = output filename without extension.
+       The Makefile test writes to flightlogs_utf8.xml → root = flightlogs_utf8 -->
+  <xs:element name="flightlogs_utf8">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="entry" type="EntryType"
+                    minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 
 </xs:schema>

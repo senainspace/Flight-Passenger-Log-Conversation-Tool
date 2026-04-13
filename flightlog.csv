@@ -1,6 +1,51 @@
-ticket_id,timestamp,baggage_weight,loyalty_points,status,destination,cabin_class,seat_num,app_ver,passenger_name
-THY1234,2025-03-01T14:25:00,22.5,1500,🟢,Istanbul,ECONOMY,85,v1.0.2,Ömer Yılmaz
-TKY5678,2025-03-02T09:15:00,15.0,3200,🔴,Ankara,BUSINESS,12,v1.0.2,Ayşe Kaya
-IST9012,2025-03-03T18:45:00,30.2,500,⚠️,Izmir,FIRST,201,v1.1.0,Mehmet Çelik
-ABC3456,2025-03-04T07:00:00,8.5,9800,🟢,London,ECONOMY,156,v1.1.0,John Smith
-PEG7890,2025-03-05T20:30:00,25.0,2100,🟢,Berlin,BUSINESS,47,v1.2.0,İpek Özdemir
+ticket_id,timestamp,baggage_weight,loyalty_points,status,destination,cabin_class,seat_num,app_ver,passanger_name
+THY1001,2025-03-01T08:10:00,15.4,,🟢,London Heathrow,ECONOMY,11,v1.0.0,Ahmet Yılmaz
+PEG1002,,850,⚠️,Berlin Brandenburg,BUSINESS,12,v1.0.1,Elif Şahin
+SUN1003,2025-03-01T10:30:20,8.3,320,🟢,Paris Charles de Gaulle,ECONOMY,13,v1.1.0,Mehmet Öztürk
+THY1004,2025-03-01T11:40:30,22.0,5400,🟢,Amsterdam Schiphol,FIRST,4,,Ayşe Kaya
+AJT1005,2025-03-01T12:50:40,10.5,600,🔴,Madrid Barajas,ECONOMY,15,v1.0.2,Hakan Demir
+THY1006,2025-03-01T13:00:50,5.4,75,🟢,Rome Fiumicino,ECONOMY,16,v1.0.3,Selin Çelik
+PEG1007,2025-03-01T14:11:00,30.0,9100,⚠️,Dubai International,BUSINESS,7,v1.2.3,Burak Koç
+SUN1008,2025-03-01T15:21:10,17.8,2000,🟢,Tokyo Narita,FIRST,8,v2.0.0,Zeynep Aksoy
+THY1009,2025-03-01T16:31:20,12.4,350,🟢,New York JFK,ECONOMY,19,v2.0.1,Caner Aydın
+AJT1010,2025-03-01T17:41:30,7.1,90,🔴,Vienna International,ECONOMY,20,v1.0.4,Emre Güneş
+THY1011,2025-03-02T08:05:00,14.2,,🟢,Prague Airport,ECONOMY,21,v1.0.0,Merve Akın
+PEG1012,2025-03-02T09:15:10,16.7,2200,⚠️,Zurich Airport,BUSINESS,22,v1.1.1,Oğuzhan Kaya
+SUN1013,2025-03-02T10:25:20,19.5,4800,🟢,Doha Hamad,FIRST,3,v1.2.2,Deniz Özdemir
+THY1014,2025-03-02T11:35:30,9.8,500,🟢,Athens Airport,ECONOMY,24,v1.0.5,Serkan Tuncer
+AJT1015,2025-03-02T12:45:40,6.3,210,🔴,Budapest Airport,ECONOMY,25,v1.0.6,İrem Şen
+THY1016,2025-03-02T13:55:50,25.5,7600,🟢,Toronto Pearson,BUSINESS,26,v2.0.2,Volkan Işık
+PEG1017,2025-03-02T14:06:00,18.9,3000,⚠️,Copenhagen Airport,BUSINESS,27,v2.1.0,Alper Yıldız
+SUN1018,2025-03-02T15:16:10,11.4,640,🟢,,28,v1.3.1,Melis Çınar
+THY1019,2025-03-02T16:26:20,28.1,9000,🟢,Singapore Changi,FIRST,2,v3.0.0,Kaan Çelik
+AJT1020,2025-03-02T17:36:30,13.7,1500,🔴,Seoul Incheon,ECONOMY,30,v1.0.7,Tuğba Aydın
+THY1021,2025-03-03T08:10:00,17.4,1400,🟢,Lisbon Airport,ECONOMY,31,v1.0.8,Eren Yalçın
+PEG1022,2025-03-03T09:20:10,21.1,870,⚠️,Stockholm Arlanda,BUSINESS,32,v1.0.9,Gizem Uçar
+SUN1023,2025-03-03T10:30:20,9.3,350,🟢,Warsaw Chopin,ECONOMY,33,v1.1.2,Tolga Demirtaş
+THY1024,2025-03-03T11:40:30,23.0,5500,🟢,Munich Airport,FIRST,5,v1.2.4,Aslı Korkmaz
+AJT1025,2025-03-03T12:50:40,11.5,620,🔴,Frankfurt Airport,ECONOMY,35,v1.1.3,Barış Güler
+THY1026,2025-03-03T13:00:50,6.4,80,🟢,Brussels Airport,ECONOMY,36,v1.1.4,Cem Özkan
+PEG1027,2025-03-03T14:11:00,31.0,9200,⚠️,Bangkok Suvarnabhumi,BUSINESS,37,v2.2.0,Ece Şimşek
+SUN1028,2025-03-03T15:21:10,18.8,2100,🟢,Kuala Lumpur,FIRST,6,v2.3.0,Hüseyin Aktaş
+THY1029,2025-03-03T16:31:20,13.4,370,🟢,Sydney Airport,ECONOMY,39,v2.4.0,Pelin Yılmaz
+AJT1030,2025-03-03T17:41:30,8.1,95,🔴,Melbourne Airport,ECONOMY,40,v1.2.0,Kerem Tunç
+THY1031,2025-03-04T08:00:00,16.4,1600,🟢,Helsinki Airport,ECONOMY,41,v1.2.1,Derya Koç
+PEG1032,2025-03-04T09:10:10,22.3,3000,⚠️,Dublin Airport,BUSINESS,42,v1.2.2,Levent Özer
+SUN1033,2025-03-04T10:20:20,10.1,410,🟢,Edinburgh Airport,ECONOMY,43,v1.2.3,Murat Acar
+THY1034,2025-03-04T11:30:30,24.5,5700,🟢,Manchester Airport,FIRST,7,v1.3.0,Esra Çelik
+AJT1035,2025-03-04T12:40:40,12.5,650,🔴,Birmingham Airport,ECONOMY,45,v1.3.1,Ali Çınar
+THY1036,2025-03-04T13:50:50,7.4,120,🟢,Nice Airport,ECONOMY,46,v1.3.2,Nazlı Demir
+PEG1037,2025-03-04T14:05:00,29.0,8800,⚠️,Barcelona Airport,BUSINESS,47,v2.5.0,Ömer Şahin
+SUN1038,2025-03-04T15:15:10,19.8,2500,🟢,Valencia Airport,FIRST,8,v2.6.0,Hande Kılıç
+THY1039,2025-03-04T16:25:20,14.4,420,🟢,Malaga Airport,ECONOMY,49,v1.3.3,Furkan Kaya
+AJT1040,2025-03-04T17:35:30,9.1,100,🔴,Ibiza Airport,ECONOMY,50,v1.3.4,Seda Arslan
+THY1041,2025-03-05T08:12:00,15.9,1800,🟢,Havana Airport,ECONOMY,51,v1.4.0,Berk Öztürk
+PEG1042,2025-03-05T09:22:10,23.1,3300,⚠️,Mexico City,BUSINESS,52,v1.4.1,Sinem Karaca
+SUN1043,2025-03-05T10:32:20,11.3,450,🟢,Sao Paulo,ECONOMY,53,v1.4.2,Deniz Arı
+THY1044,2025-03-05T11:42:30,26.0,6000,🟢,Buenos Aires,FIRST,9,v2.7.0,Onur Polat
+AJT1045,2025-03-05T12:52:40,13.5,700,🔴,Lima Airport,ECONOMY,55,v1.4.3,Nilay Çetin
+THY1046,2025-03-05T13:02:50,6.8,140,🟢,Bogota Airport,ECONOMY,56,v1.4.4,Recep Usta
+PEG1047,2025-03-05T14:12:00,32.0,9400,⚠️,Santiago Airport,BUSINESS,57,v2.8.0,Meltem Arslan
+SUN1048,2025-03-05T15:22:10,18.3,2700,🟢,Cape Town,FIRST,10,v2.9.0,Halil Korkut
+THY1049,2025-03-05T16:32:20,13.1,500,🟢,Johannesburg,ECONOMY,59,v1.4.5,Selda Şen
+AJT1050,2025-03-05T17:42:30,9.4,120,🔴,Nairobi Airport,ECONOMY,60,v1.4.6,Taner Aydın

@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flightlogs_utf8>
+  <entry id="1">
+    <ticket>
+      <ticket_id>THY1001</ticket_id>
+      <destination>London Heathrow</destination>
+      <app_ver>v1.0.0</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>15.40</baggage_weight>
+      <loyalty_points>0</loyalty_points>
+      <seat_num>11</seat_num>
+    </metrics>
+    <timestamp>2025-03-01T08:10:00</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="41">Ahmet Yılmaz</passenger_name>
+  </entry>
+  <entry id="2">
+    <ticket>
+      <ticket_id>SUN1003</ticket_id>
+      <destination>Paris Charles de Gaulle</destination>
+      <app_ver>v1.1.0</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>8.30</baggage_weight>
+      <loyalty_points>320</loyalty_points>
+      <seat_num>13</seat_num>
+    </metrics>
+    <timestamp>2025-03-01T10:30:20</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="4D">Mehmet Öztürk</passenger_name>
+  </entry>
+  <entry id="3">
+    <ticket>
+      <ticket_id>THY1004</ticket_id>
+      <destination>Amsterdam Schiphol</destination>
+      <app_ver/>
+    </ticket>
+    <metrics status="🟢" cabin_class="FIRST">
+      <baggage_weight>22.00</baggage_weight>
+      <loyalty_points>5400</loyalty_points>
+      <seat_num>4</seat_num>
+    </metrics>
+    <timestamp>2025-03-01T11:40:30</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="41">Ayşe Kaya</passenger_name>
+  </entry>
+  <entry id="4">
+    <ticket>
+      <ticket_id>AJT1005</ticket_id>
+      <destination>Madrid Barajas</destination>
+      <app_ver>v1.0.2</app_ver>
+    </ticket>
+    <metrics status="🔴" cabin_class="ECONOMY">
+      <baggage_weight>10.50</baggage_weight>
+      <loyalty_points>600</loyalty_points>
+      <seat_num>15</seat_num>
+    </metrics>
+    <timestamp>2025-03-01T12:50:40</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="48">Hakan Demir</passenger_name>
+  </entry>
+  <entry id="5">
+    <ticket>
+      <ticket_id>THY1006</ticket_id>
+      <destination>Rome Fiumicino</destination>
+      <app_ver>v1.0.3</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>5.40</baggage_weight>
+      <loyalty_points>75</loyalty_points>
+      <seat_num>16</seat_num>
+    </metrics>
+    <timestamp>2025-03-01T13:00:50</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="53">Selin Çelik</passenger_name>
+  </entry>
+  <entry id="6">
+    <ticket>
+      <ticket_id>PEG1007</ticket_id>
+      <destination>Dubai International</destination>
+      <app_ver>v1.2.3</app_ver>
+    </ticket>
+    <metrics status="⚠️" cabin_class="BUSINESS">
+      <baggage_weight>30.00</baggage_weight>
+      <loyalty_points>9100</loyalty_points>
+      <seat_num>7</seat_num>
+    </metrics>
+    <timestamp>2025-03-01T14:11:00</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="42">Burak Koç</passenger_name>
+  </entry>
+  <entry id="7">
+    <ticket>
+      <ticket_id>SUN1008</ticket_id>
+      <destination>Tokyo Narita</destination>
+      <app_ver>v2.0.0</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="FIRST">
+      <baggage_weight>17.80</baggage_weight>
+      <loyalty_points>2000</loyalty_points>
+      <seat_num>8</seat_num>
+    </metrics>
+    <timestamp>2025-03-01T15:21:10</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="5A">Zeynep Aksoy</passenger_name>
+  </entry>
+  <entry id="8">
+    <ticket>
+      <ticket_id>THY1009</ticket_id>
+      <destination>New York JFK</destination>
+      <app_ver>v2.0.1</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>12.40</baggage_weight>
+      <loyalty_points>350</loyalty_points>
+      <seat_num>19</seat_num>
+    </metrics>
+    <timestamp>2025-03-01T16:31:20</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="43">Caner Aydın</passenger_name>
+  </entry>
+  <entry id="9">
+    <ticket>
+      <ticket_id>AJT1010</ticket_id>
+      <destination>Vienna International</destination>
+      <app_ver>v1.0.4</app_ver>
+    </ticket>
+    <metrics status="🔴" cabin_class="ECONOMY">
+      <baggage_weight>7.10</baggage_weight>
+      <loyalty_points>90</loyalty_points>
+      <seat_num>20</seat_num>
+    </metrics>
+    <timestamp>2025-03-01T17:41:30</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="45">Emre Güneş</passenger_name>
+  </entry>
+  <entry id="10">
+    <ticket>
+      <ticket_id>THY1011</ticket_id>
+      <destination>Prague Airport</destination>
+      <app_ver>v1.0.0</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>14.20</baggage_weight>
+      <loyalty_points>0</loyalty_points>
+      <seat_num>21</seat_num>
+    </metrics>
+    <timestamp>2025-03-02T08:05:00</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="4D">Merve Akın</passenger_name>
+  </entry>
+  <entry id="11">
+    <ticket>
+      <ticket_id>PEG1012</ticket_id>
+      <destination>Zurich Airport</destination>
+      <app_ver>v1.1.1</app_ver>
+    </ticket>
+    <metrics status="⚠️" cabin_class="BUSINESS">
+      <baggage_weight>16.70</baggage_weight>
+      <loyalty_points>2200</loyalty_points>
+      <seat_num>22</seat_num>
+    </metrics>
+    <timestamp>2025-03-02T09:15:10</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="4F">Oğuzhan Kaya</passenger_name>
+  </entry>
+  <entry id="12">
+    <ticket>
+      <ticket_id>SUN1013</ticket_id>
+      <destination>Doha Hamad</destination>
+      <app_ver>v1.2.2</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="FIRST">
+      <baggage_weight>19.50</baggage_weight>
+      <loyalty_points>4800</loyalty_points>
+      <seat_num>3</seat_num>
+    </metrics>
+    <timestamp>2025-03-02T10:25:20</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="44">Deniz Özdemir</passenger_name>
+  </entry>
+  <entry id="13">
+    <ticket>
+      <ticket_id>THY1014</ticket_id>
+      <destination>Athens Airport</destination>
+      <app_ver>v1.0.5</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>9.80</baggage_weight>
+      <loyalty_points>500</loyalty_points>
+      <seat_num>24</seat_num>
+    </metrics>
+    <timestamp>2025-03-02T11:35:30</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="53">Serkan Tuncer</passenger_name>
+  </entry>
+  <entry id="14">
+    <ticket>
+      <ticket_id>AJT1015</ticket_id>
+      <destination>Budapest Airport</destination>
+      <app_ver>v1.0.6</app_ver>
+    </ticket>
+    <metrics status="🔴" cabin_class="ECONOMY">
+      <baggage_weight>6.30</baggage_weight>
+      <loyalty_points>210</loyalty_points>
+      <seat_num>25</seat_num>
+    </metrics>
+    <timestamp>2025-03-02T12:45:40</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="C4B0">İrem Şen</passenger_name>
+  </entry>
+  <entry id="15">
+    <ticket>
+      <ticket_id>THY1016</ticket_id>
+      <destination>Toronto Pearson</destination>
+      <app_ver>v2.0.2</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="BUSINESS">
+      <baggage_weight>25.50</baggage_weight>
+      <loyalty_points>7600</loyalty_points>
+      <seat_num>26</seat_num>
+    </metrics>
+    <timestamp>2025-03-02T13:55:50</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="56">Volkan Işık</passenger_name>
+  </entry>
+  <entry id="16">
+    <ticket>
+      <ticket_id>PEG1017</ticket_id>
+      <destination>Copenhagen Airport</destination>
+      <app_ver>v2.1.0</app_ver>
+    </ticket>
+    <metrics status="⚠️" cabin_class="BUSINESS">
+      <baggage_weight>18.90</baggage_weight>
+      <loyalty_points>3000</loyalty_points>
+      <seat_num>27</seat_num>
+    </metrics>
+    <timestamp>2025-03-02T14:06:00</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="41">Alper Yıldız</passenger_name>
+  </entry>
+  <entry id="17">
+    <ticket>
+      <ticket_id>THY1019</ticket_id>
+      <destination>Singapore Changi</destination>
+      <app_ver>v3.0.0</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="FIRST">
+      <baggage_weight>28.10</baggage_weight>
+      <loyalty_points>9000</loyalty_points>
+      <seat_num>2</seat_num>
+    </metrics>
+    <timestamp>2025-03-02T16:26:20</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="4B">Kaan Çelik</passenger_name>
+  </entry>
+  <entry id="18">
+    <ticket>
+      <ticket_id>AJT1020</ticket_id>
+      <destination>Seoul Incheon</destination>
+      <app_ver>v1.0.7</app_ver>
+    </ticket>
+    <metrics status="🔴" cabin_class="ECONOMY">
+      <baggage_weight>13.70</baggage_weight>
+      <loyalty_points>1500</loyalty_points>
+      <seat_num>30</seat_num>
+    </metrics>
+    <timestamp>2025-03-02T17:36:30</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="54">Tuğba Aydın</passenger_name>
+  </entry>
+  <entry id="19">
+    <ticket>
+      <ticket_id>THY1021</ticket_id>
+      <destination>Lisbon Airport</destination>
+      <app_ver>v1.0.8</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>17.40</baggage_weight>
+      <loyalty_points>1400</loyalty_points>
+      <seat_num>31</seat_num>
+    </metrics>
+    <timestamp>2025-03-03T08:10:00</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="45">Eren Yalçın</passenger_name>
+  </entry>
+  <entry id="20">
+    <ticket>
+      <ticket_id>PEG1022</ticket_id>
+      <destination>Stockholm Arlanda</destination>
+      <app_ver>v1.0.9</app_ver>
+    </ticket>
+    <metrics status="⚠️" cabin_class="BUSINESS">
+      <baggage_weight>21.10</baggage_weight>
+      <loyalty_points>870</loyalty_points>
+      <seat_num>32</seat_num>
+    </metrics>
+    <timestamp>2025-03-03T09:20:10</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="47">Gizem Uçar</passenger_name>
+  </entry>
+  <entry id="21">
+    <ticket>
+      <ticket_id>SUN1023</ticket_id>
+      <destination>Warsaw Chopin</destination>
+      <app_ver>v1.1.2</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>9.30</baggage_weight>
+      <loyalty_points>350</loyalty_points>
+      <seat_num>33</seat_num>
+    </metrics>
+    <timestamp>2025-03-03T10:30:20</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="54">Tolga Demirtaş</passenger_name>
+  </entry>
+  <entry id="22">
+    <ticket>
+      <ticket_id>THY1024</ticket_id>
+      <destination>Munich Airport</destination>
+      <app_ver>v1.2.4</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="FIRST">
+      <baggage_weight>23.00</baggage_weight>
+      <loyalty_points>5500</loyalty_points>
+      <seat_num>5</seat_num>
+    </metrics>
+    <timestamp>2025-03-03T11:40:30</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="41">Aslı Korkmaz</passenger_name>
+  </entry>
+  <entry id="23">
+    <ticket>
+      <ticket_id>AJT1025</ticket_id>
+      <destination>Frankfurt Airport</destination>
+      <app_ver>v1.1.3</app_ver>
+    </ticket>
+    <metrics status="🔴" cabin_class="ECONOMY">
+      <baggage_weight>11.50</baggage_weight>
+      <loyalty_points>620</loyalty_points>
+      <seat_num>35</seat_num>
+    </metrics>
+    <timestamp>2025-03-03T12:50:40</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="42">Barış Güler</passenger_name>
+  </entry>
+  <entry id="24">
+    <ticket>
+      <ticket_id>THY1026</ticket_id>
+      <destination>Brussels Airport</destination>
+      <app_ver>v1.1.4</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>6.40</baggage_weight>
+      <loyalty_points>80</loyalty_points>
+      <seat_num>36</seat_num>
+    </metrics>
+    <timestamp>2025-03-03T13:00:50</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="43">Cem Özkan</passenger_name>
+  </entry>
+  <entry id="25">
+    <ticket>
+      <ticket_id>PEG1027</ticket_id>
+      <destination>Bangkok Suvarnabhumi</destination>
+      <app_ver>v2.2.0</app_ver>
+    </ticket>
+    <metrics status="⚠️" cabin_class="BUSINESS">
+      <baggage_weight>31.00</baggage_weight>
+      <loyalty_points>9200</loyalty_points>
+      <seat_num>37</seat_num>
+    </metrics>
+    <timestamp>2025-03-03T14:11:00</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="45">Ece Şimşek</passenger_name>
+  </entry>
+  <entry id="26">
+    <ticket>
+      <ticket_id>SUN1028</ticket_id>
+      <destination>Kuala Lumpur</destination>
+      <app_ver>v2.3.0</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="FIRST">
+      <baggage_weight>18.80</baggage_weight>
+      <loyalty_points>2100</loyalty_points>
+      <seat_num>6</seat_num>
+    </metrics>
+    <timestamp>2025-03-03T15:21:10</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="48">Hüseyin Aktaş</passenger_name>
+  </entry>
+  <entry id="27">
+    <ticket>
+      <ticket_id>THY1029</ticket_id>
+      <destination>Sydney Airport</destination>
+      <app_ver>v2.4.0</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>13.40</baggage_weight>
+      <loyalty_points>370</loyalty_points>
+      <seat_num>39</seat_num>
+    </metrics>
+    <timestamp>2025-03-03T16:31:20</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="50">Pelin Yılmaz</passenger_name>
+  </entry>
+  <entry id="28">
+    <ticket>
+      <ticket_id>AJT1030</ticket_id>
+      <destination>Melbourne Airport</destination>
+      <app_ver>v1.2.0</app_ver>
+    </ticket>
+    <metrics status="🔴" cabin_class="ECONOMY">
+      <baggage_weight>8.10</baggage_weight>
+      <loyalty_points>95</loyalty_points>
+      <seat_num>40</seat_num>
+    </metrics>
+    <timestamp>2025-03-03T17:41:30</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="4B">Kerem Tunç</passenger_name>
+  </entry>
+  <entry id="29">
+    <ticket>
+      <ticket_id>THY1031</ticket_id>
+      <destination>Helsinki Airport</destination>
+      <app_ver>v1.2.1</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>16.40</baggage_weight>
+      <loyalty_points>1600</loyalty_points>
+      <seat_num>41</seat_num>
+    </metrics>
+    <timestamp>2025-03-04T08:00:00</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="44">Derya Koç</passenger_name>
+  </entry>
+  <entry id="30">
+    <ticket>
+      <ticket_id>PEG1032</ticket_id>
+      <destination>Dublin Airport</destination>
+      <app_ver>v1.2.2</app_ver>
+    </ticket>
+    <metrics status="⚠️" cabin_class="BUSINESS">
+      <baggage_weight>22.30</baggage_weight>
+      <loyalty_points>3000</loyalty_points>
+      <seat_num>42</seat_num>
+    </metrics>
+    <timestamp>2025-03-04T09:10:10</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="4C">Levent Özer</passenger_name>
+  </entry>
+  <entry id="31">
+    <ticket>
+      <ticket_id>SUN1033</ticket_id>
+      <destination>Edinburgh Airport</destination>
+      <app_ver>v1.2.3</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>10.10</baggage_weight>
+      <loyalty_points>410</loyalty_points>
+      <seat_num>43</seat_num>
+    </metrics>
+    <timestamp>2025-03-04T10:20:20</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="4D">Murat Acar</passenger_name>
+  </entry>
+  <entry id="32">
+    <ticket>
+      <ticket_id>THY1034</ticket_id>
+      <destination>Manchester Airport</destination>
+      <app_ver>v1.3.0</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="FIRST">
+      <baggage_weight>24.50</baggage_weight>
+      <loyalty_points>5700</loyalty_points>
+      <seat_num>7</seat_num>
+    </metrics>
+    <timestamp>2025-03-04T11:30:30</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="45">Esra Çelik</passenger_name>
+  </entry>
+  <entry id="33">
+    <ticket>
+      <ticket_id>AJT1035</ticket_id>
+      <destination>Birmingham Airport</destination>
+      <app_ver>v1.3.1</app_ver>
+    </ticket>
+    <metrics status="🔴" cabin_class="ECONOMY">
+      <baggage_weight>12.50</baggage_weight>
+      <loyalty_points>650</loyalty_points>
+      <seat_num>45</seat_num>
+    </metrics>
+    <timestamp>2025-03-04T12:40:40</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="41">Ali Çınar</passenger_name>
+  </entry>
+  <entry id="34">
+    <ticket>
+      <ticket_id>THY1036</ticket_id>
+      <destination>Nice Airport</destination>
+      <app_ver>v1.3.2</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>7.40</baggage_weight>
+      <loyalty_points>120</loyalty_points>
+      <seat_num>46</seat_num>
+    </metrics>
+    <timestamp>2025-03-04T13:50:50</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="4E">Nazlı Demir</passenger_name>
+  </entry>
+  <entry id="35">
+    <ticket>
+      <ticket_id>PEG1037</ticket_id>
+      <destination>Barcelona Airport</destination>
+      <app_ver>v2.5.0</app_ver>
+    </ticket>
+    <metrics status="⚠️" cabin_class="BUSINESS">
+      <baggage_weight>29.00</baggage_weight>
+      <loyalty_points>8800</loyalty_points>
+      <seat_num>47</seat_num>
+    </metrics>
+    <timestamp>2025-03-04T14:05:00</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="C396">Ömer Şahin</passenger_name>
+  </entry>
+  <entry id="36">
+    <ticket>
+      <ticket_id>SUN1038</ticket_id>
+      <destination>Valencia Airport</destination>
+      <app_ver>v2.6.0</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="FIRST">
+      <baggage_weight>19.80</baggage_weight>
+      <loyalty_points>2500</loyalty_points>
+      <seat_num>8</seat_num>
+    </metrics>
+    <timestamp>2025-03-04T15:15:10</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="48">Hande Kılıç</passenger_name>
+  </entry>
+  <entry id="37">
+    <ticket>
+      <ticket_id>THY1039</ticket_id>
+      <destination>Malaga Airport</destination>
+      <app_ver>v1.3.3</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>14.40</baggage_weight>
+      <loyalty_points>420</loyalty_points>
+      <seat_num>49</seat_num>
+    </metrics>
+    <timestamp>2025-03-04T16:25:20</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="46">Furkan Kaya</passenger_name>
+  </entry>
+  <entry id="38">
+    <ticket>
+      <ticket_id>AJT1040</ticket_id>
+      <destination>Ibiza Airport</destination>
+      <app_ver>v1.3.4</app_ver>
+    </ticket>
+    <metrics status="🔴" cabin_class="ECONOMY">
+      <baggage_weight>9.10</baggage_weight>
+      <loyalty_points>100</loyalty_points>
+      <seat_num>50</seat_num>
+    </metrics>
+    <timestamp>2025-03-04T17:35:30</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="53">Seda Arslan</passenger_name>
+  </entry>
+  <entry id="39">
+    <ticket>
+      <ticket_id>THY1041</ticket_id>
+      <destination>Havana Airport</destination>
+      <app_ver>v1.4.0</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>15.90</baggage_weight>
+      <loyalty_points>1800</loyalty_points>
+      <seat_num>51</seat_num>
+    </metrics>
+    <timestamp>2025-03-05T08:12:00</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="42">Berk Öztürk</passenger_name>
+  </entry>
+  <entry id="40">
+    <ticket>
+      <ticket_id>PEG1042</ticket_id>
+      <destination>Mexico City</destination>
+      <app_ver>v1.4.1</app_ver>
+    </ticket>
+    <metrics status="⚠️" cabin_class="BUSINESS">
+      <baggage_weight>23.10</baggage_weight>
+      <loyalty_points>3300</loyalty_points>
+      <seat_num>52</seat_num>
+    </metrics>
+    <timestamp>2025-03-05T09:22:10</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="53">Sinem Karaca</passenger_name>
+  </entry>
+  <entry id="41">
+    <ticket>
+      <ticket_id>SUN1043</ticket_id>
+      <destination>Sao Paulo</destination>
+      <app_ver>v1.4.2</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>11.30</baggage_weight>
+      <loyalty_points>450</loyalty_points>
+      <seat_num>53</seat_num>
+    </metrics>
+    <timestamp>2025-03-05T10:32:20</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="44">Deniz Arı</passenger_name>
+  </entry>
+  <entry id="42">
+    <ticket>
+      <ticket_id>THY1044</ticket_id>
+      <destination>Buenos Aires</destination>
+      <app_ver>v2.7.0</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="FIRST">
+      <baggage_weight>26.00</baggage_weight>
+      <loyalty_points>6000</loyalty_points>
+      <seat_num>9</seat_num>
+    </metrics>
+    <timestamp>2025-03-05T11:42:30</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="4F">Onur Polat</passenger_name>
+  </entry>
+  <entry id="43">
+    <ticket>
+      <ticket_id>AJT1045</ticket_id>
+      <destination>Lima Airport</destination>
+      <app_ver>v1.4.3</app_ver>
+    </ticket>
+    <metrics status="🔴" cabin_class="ECONOMY">
+      <baggage_weight>13.50</baggage_weight>
+      <loyalty_points>700</loyalty_points>
+      <seat_num>55</seat_num>
+    </metrics>
+    <timestamp>2025-03-05T12:52:40</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="4E">Nilay Çetin</passenger_name>
+  </entry>
+  <entry id="44">
+    <ticket>
+      <ticket_id>THY1046</ticket_id>
+      <destination>Bogota Airport</destination>
+      <app_ver>v1.4.4</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>6.80</baggage_weight>
+      <loyalty_points>140</loyalty_points>
+      <seat_num>56</seat_num>
+    </metrics>
+    <timestamp>2025-03-05T13:02:50</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="52">Recep Usta</passenger_name>
+  </entry>
+  <entry id="45">
+    <ticket>
+      <ticket_id>PEG1047</ticket_id>
+      <destination>Santiago Airport</destination>
+      <app_ver>v2.8.0</app_ver>
+    </ticket>
+    <metrics status="⚠️" cabin_class="BUSINESS">
+      <baggage_weight>32.00</baggage_weight>
+      <loyalty_points>9400</loyalty_points>
+      <seat_num>57</seat_num>
+    </metrics>
+    <timestamp>2025-03-05T14:12:00</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="4D">Meltem Arslan</passenger_name>
+  </entry>
+  <entry id="46">
+    <ticket>
+      <ticket_id>SUN1048</ticket_id>
+      <destination>Cape Town</destination>
+      <app_ver>v2.9.0</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="FIRST">
+      <baggage_weight>18.30</baggage_weight>
+      <loyalty_points>2700</loyalty_points>
+      <seat_num>10</seat_num>
+    </metrics>
+    <timestamp>2025-03-05T15:22:10</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="48">Halil Korkut</passenger_name>
+  </entry>
+  <entry id="47">
+    <ticket>
+      <ticket_id>THY1049</ticket_id>
+      <destination>Johannesburg</destination>
+      <app_ver>v1.4.5</app_ver>
+    </ticket>
+    <metrics status="🟢" cabin_class="ECONOMY">
+      <baggage_weight>13.10</baggage_weight>
+      <loyalty_points>500</loyalty_points>
+      <seat_num>59</seat_num>
+    </metrics>
+    <timestamp>2025-03-05T16:32:20</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="53">Selda Şen</passenger_name>
+  </entry>
+  <entry id="48">
+    <ticket>
+      <ticket_id>AJT1050</ticket_id>
+      <destination>Nairobi Airport</destination>
+      <app_ver>v1.4.6</app_ver>
+    </ticket>
+    <metrics status="🔴" cabin_class="ECONOMY">
+      <baggage_weight>9.40</baggage_weight>
+      <loyalty_points>120</loyalty_points>
+      <seat_num>60</seat_num>
+    </metrics>
+    <timestamp>2025-03-05T17:42:30</timestamp>
+    <passenger_name current_encoding="UTF-8" first_char_hex="54">Taner Aydın</passenger_name>
+  </entry>
+</flightlogs_utf8>
