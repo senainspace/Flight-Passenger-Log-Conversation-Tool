@@ -1,0 +1,6 @@
+ticket_id,timestamp,baggage_weight,loyalty_points,status,destination,cabin_class,seat_num,app_ver,passenger_name
+THY1234,2025-03-01T14:25:00,22.5,1500,🟢,Istanbul,ECONOMY,85,v1.0.2,Ömer Yılmaz
+TKY5678,2025-03-02T09:15:00,15.0,3200,🔴,Ankara,BUSINESS,12,v1.0.2,Ayşe Kaya
+IST9012,2025-03-03T18:45:00,30.2,500,⚠️,Izmir,FIRST,201,v1.1.0,Mehmet Çelik
+ABC3456,2025-03-04T07:00:00,8.5,9800,🟢,London,ECONOMY,156,v1.1.0,John Smith
+PEG7890,2025-03-05T20:30:00,25.0,2100,🟢,Berlin,BUSINESS,47,v1.2.0,İpek Özdemir
